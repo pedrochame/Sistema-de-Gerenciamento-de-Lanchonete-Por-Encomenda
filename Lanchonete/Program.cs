@@ -26,7 +26,7 @@ namespace Lanchonete
         /// Ponto de entrada principal para o aplicativo.
         
         //Definindo a string de conexão para o banco de dados SQLite.
-        public const string connectionString = "Data Source=../../../BDLanchonete.db;Version=3;";
+        public const string connectionString = "Data Source=BDLanchonete.db;Version=3;";
         
         public static List<Municipio> municipios = new List<Municipio>();
 
