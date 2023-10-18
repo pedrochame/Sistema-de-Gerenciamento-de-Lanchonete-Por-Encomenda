@@ -1,4 +1,4 @@
-# Lanchonete
+# Sistema de Gerenciamento de Lanchonete Por Encomenda
 
 Sistema para gerencimento de uma lanchonete por encomenda.
 
