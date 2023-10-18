@@ -172,24 +172,24 @@ namespace Lanchonete
 
                 if (tabela == "tipo_produto")
                 {
-                    nome = "Tipos de Produto/Tipos de Produto";
+                    nome = "Tipos de Produto";
                 }
                 else if (tabela == "cliente")
                 {
-                    nome = "Clientes/Clientes";
+                    nome = "Clientes";
                 }
                 else if (tabela == "produto")
                 {
-                    nome = "Produtos/Produtos";
+                    nome = "Produtos";
                 }
                 else if (tabela == "pedido")
                 {
-                    nome = "Pedidos/Pedidos";
+                    nome = "Pedidos";
                 }
 
                 workbook.Save($"../../../{nome} {dh}.xlsx");
 
-                return $"Planilhas/{nome} {dh}";
+                return $"{nome} {dh}.xlsx";
 
             }catch (Exception ex)
             {
