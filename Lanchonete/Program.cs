@@ -189,7 +189,7 @@ namespace Lanchonete
 
                 workbook.Save($"../../../{nome} {dh}.xlsx");
 
-                return $"{nome} {dh}.xlsx";
+                return $"{nome} {dh}";
 
             }catch (Exception ex)
             {
