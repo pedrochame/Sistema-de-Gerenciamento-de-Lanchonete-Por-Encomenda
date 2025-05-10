@@ -1,9 +1,11 @@
-# Sistema de Gerenciamento de Lanchonete Por Encomenda
+# Sistema de Gerenciamento de Lanchonete Por Encomenda (Windows Forms - C#)
 
-Sistema para gerencimento de uma lanchonete por encomenda.
+Projeto pessoal desenvolvido em 2023 com foco em aprendizado de C# e criação de interfaces com Windows Forms.
 
-É possível incluir, alterar e excluir os seguintes dados: Clientes, Produtos, Tipos de Produtos e Pedidos.
+Funcionalidades básicas:
+- Cadastro de clientes
+- Cadastro de produtos
+- Criação de pedidos
+- Relatórios simples
 
-A tela inicial é o menu do programa, existem quatro botões que levam o usuário para as telas de menu dos tipos de informações mencionados acima.
-
-Através das telas de menu é possível visualizar todos os registros, além de incluir novos, alterar, excluir, fazer pesquisas através de filtros e exportar a visualização para um arquivo de Excel (xlsx).
+⚠️ Este projeto foi desenvolvido como exercício prático e não segue todas as melhores práticas de arquitetura e design de código.
